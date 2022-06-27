@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@datareachable/webpack": "^0.0.3",
     "@types/react-dom": "^17.0.14"
   },
   "dependencies": {
+    "@datareachable/webpack": "^0.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
