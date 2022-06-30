@@ -5,11 +5,20 @@ switch (process.env.NODE_ENV) {
     case "development":
         command = "npm run start";
         break;
-    case "development_dev":
-        command = "npm run build";
+    case "v1_dev":
+        command = "npm run buildV1";
         break;
-    case "test":
-        command = "npm run build-dev";
+    case "v2_dev":
+        command = "npm run buildV2";
+        break;
+    case "v1_test":
+        command = "npm run testV1";
+        break;
+    case "v2_test":
+        command = "npm run testV2";
+        break;
+    case "production":
+        command = "npm run build";
         break;
 }
 

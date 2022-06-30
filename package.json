@@ -10,17 +10,20 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "datareachable dev",
-    "build": "datareachable build",
-    "build-dev": "datareachable build-dev",
+    "buildV1": "datareachable build-v1",
+    "buildV2": "datareachable build-v2",
+    "testV1": "datareachable build-test-v1",
+    "testV2": "datareachable build-test-v2",
+    "releases": "datareachable build",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@datareachable/webpack": "^0.0.6",
     "@types/react-dom": "^17.0.14"
   },
   "dependencies": {
-    "@datareachable/webpack": "^0.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
