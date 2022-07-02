@@ -37,7 +37,9 @@ ReactDOM.render(
         指令: {command}
         <br />
         <br />
-        process.env.NODE_ENV:{process.env.NODE_ENV}
+        process.env.NODE_ENV ： {process.env.NODE_ENV}
+        <br />
+        process.env.BASENAME ：{process.env.BASENAME}
     </div>,
     document.getElementById("root"),
 );
